@@ -1,0 +1,517 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\output\\managers\\outputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\output\\managers\\outputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\domain\\entities\\components\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\domain\\entities\\components\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\domain\\helpers\\gameobjectfactory\\gameobjectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\domain\\helpers\\gameobjectfactory\\gameobjectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\domain\\valueobjects\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\domain\\valueobjects\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\domain\\entities\\objects\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\domain\\entities\\objects\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\domain\\helpers\\classfactory\\iclassfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\domain\\helpers\\classfactory\\iclassfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\domain\\helpers\\gameobjectfactory\\igameobjectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\domain\\helpers\\gameobjectfactory\\igameobjectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\domain\\helpers\\classfactory\\classfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\domain\\helpers\\classfactory\\classfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\domain\\abstractions\\components\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\domain\\abstractions\\components\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\gameloop\\containers\\gameobjectscontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\gameloop\\containers\\gameobjectscontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\time\\initialization\\timefeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\time\\initialization\\timefeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\time\\services\\itimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\time\\services\\itimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\time\\services\\timeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\time\\services\\timeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\output\\initialization\\outputfeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\output\\initialization\\outputfeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\output\\services\\ioutputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\output\\services\\ioutputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\input\\initialization\\inputfeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\input\\initialization\\inputfeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\frame\\initialization\\framefeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\frame\\initialization\\framefeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\frame\\services\\iframeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\frame\\services\\iframeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\frame\\services\\frameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\frame\\services\\frameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\domain\\abstractions\\initcommands\\basefeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\domain\\abstractions\\initcommands\\basefeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\gameloop\\containers\\featurescontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\gameloop\\containers\\featurescontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\frame\\managers\\framemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\frame\\managers\\framemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\domain\\abstractions\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\domain\\abstractions\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\output\\services\\outputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\output\\services\\outputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\input\\services\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\input\\services\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\input\\services\\iinputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\input\\services\\iinputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\gameloop\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\gameloop\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\time\\managers\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\time\\managers\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\input\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\input\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\consoleengine\\features\\output\\models\\outputitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE92733-23FD-4CD7-A172-5582A0524B22}|ConsoleEngine\\ConsoleEngine.csproj|solutionrelative:consoleengine\\features\\output\\models\\outputitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4DBBE91-56C7-4C8F-960C-060BBE9A8C65}|BattleShipGame\\BattleShipGame.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab 1_test\\battleshipgame\\battleshipgame\\battleshipgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4DBBE91-56C7-4C8F-960C-060BBE9A8C65}|BattleShipGame\\BattleShipGame.csproj|solutionrelative:battleshipgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGameObjectFactory.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Helpers\\GameObjectFactory\\IGameObjectFactory.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Domain\\Helpers\\GameObjectFactory\\IGameObjectFactory.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Helpers\\GameObjectFactory\\IGameObjectFactory.cs",
+              "RelativeToolTip": "ConsoleEngine\\Domain\\Helpers\\GameObjectFactory\\IGameObjectFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:28:16.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClassFactory.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Helpers\\ClassFactory\\ClassFactory.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Domain\\Helpers\\ClassFactory\\ClassFactory.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Helpers\\ClassFactory\\ClassFactory.cs",
+              "RelativeToolTip": "ConsoleEngine\\Domain\\Helpers\\ClassFactory\\ClassFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:13:26.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IClassFactory.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Helpers\\ClassFactory\\IClassFactory.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Domain\\Helpers\\ClassFactory\\IClassFactory.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Helpers\\ClassFactory\\IClassFactory.cs",
+              "RelativeToolTip": "ConsoleEngine\\Domain\\Helpers\\ClassFactory\\IClassFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:12:05.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IOutputService.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Output\\Services\\IOutputService.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Output\\Services\\IOutputService.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Output\\Services\\IOutputService.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Output\\Services\\IOutputService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:26:02.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FrameFeatureInitCommand.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Frame\\Initialization\\FrameFeatureInitCommand.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Frame\\Initialization\\FrameFeatureInitCommand.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Frame\\Initialization\\FrameFeatureInitCommand.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Frame\\Initialization\\FrameFeatureInitCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:22:00.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FrameService.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Frame\\Services\\FrameService.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Frame\\Services\\FrameService.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Frame\\Services\\FrameService.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Frame\\Services\\FrameService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:18:40.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IFrameService.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Frame\\Services\\IFrameService.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Frame\\Services\\IFrameService.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Frame\\Services\\IFrameService.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Frame\\Services\\IFrameService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:18:21.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OutputFeatureInitCommand.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Output\\Initialization\\OutputFeatureInitCommand.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Output\\Initialization\\OutputFeatureInitCommand.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Output\\Initialization\\OutputFeatureInitCommand.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Output\\Initialization\\OutputFeatureInitCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:16:13.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OutputManager.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Output\\Managers\\OutputManager.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Output\\Managers\\OutputManager.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Output\\Managers\\OutputManager.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Output\\Managers\\OutputManager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:40:11.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameObjectFactory.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Helpers\\GameObjectFactory\\GameObjectFactory.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Domain\\Helpers\\GameObjectFactory\\GameObjectFactory.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Helpers\\GameObjectFactory\\GameObjectFactory.cs",
+              "RelativeToolTip": "ConsoleEngine\\Domain\\Helpers\\GameObjectFactory\\GameObjectFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwBwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:28:33.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameObjectsContainer.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\GameLoop\\Containers\\GameObjectsContainer.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\GameLoop\\Containers\\GameObjectsContainer.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\GameLoop\\Containers\\GameObjectsContainer.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\GameLoop\\Containers\\GameObjectsContainer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:31:45.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transform.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Entities\\Components\\Transform.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Domain\\Entities\\Components\\Transform.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Entities\\Components\\Transform.cs",
+              "RelativeToolTip": "ConsoleEngine\\Domain\\Entities\\Components\\Transform.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAWwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:35:43.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FeaturesContainer.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\GameLoop\\Containers\\FeaturesContainer.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\GameLoop\\Containers\\FeaturesContainer.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\GameLoop\\Containers\\FeaturesContainer.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\GameLoop\\Containers\\FeaturesContainer.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwDgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:09:24.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InputFeatureInitCommand.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Input\\Initialization\\InputFeatureInitCommand.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Input\\Initialization\\InputFeatureInitCommand.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Input\\Initialization\\InputFeatureInitCommand.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Input\\Initialization\\InputFeatureInitCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:05:22.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TimeService.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Time\\Services\\TimeService.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Time\\Services\\TimeService.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Time\\Services\\TimeService.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Time\\Services\\TimeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:59:29.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameObject.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Entities\\Objects\\GameObject.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Domain\\Entities\\Objects\\GameObject.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Entities\\Objects\\GameObject.cs",
+              "RelativeToolTip": "ConsoleEngine\\Domain\\Entities\\Objects\\GameObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:10:33.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FrameManager.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Frame\\Managers\\FrameManager.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Frame\\Managers\\FrameManager.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Frame\\Managers\\FrameManager.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Frame\\Managers\\FrameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:17:56.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vector2.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\ValueObjects\\Vector2.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Domain\\ValueObjects\\Vector2.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\ValueObjects\\Vector2.cs",
+              "RelativeToolTip": "ConsoleEngine\\Domain\\ValueObjects\\Vector2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:39:06.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Abstractions\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Domain\\Abstractions\\Managers\\GameManager.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Abstractions\\Managers\\GameManager.cs",
+              "RelativeToolTip": "ConsoleEngine\\Domain\\Abstractions\\Managers\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:54:17.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Component.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Abstractions\\Components\\Component.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Domain\\Abstractions\\Components\\Component.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Abstractions\\Components\\Component.cs",
+              "RelativeToolTip": "ConsoleEngine\\Domain\\Abstractions\\Components\\Component.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:10:07.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseFeatureInitCommand.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Abstractions\\InitCommands\\BaseFeatureInitCommand.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Domain\\Abstractions\\InitCommands\\BaseFeatureInitCommand.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Domain\\Abstractions\\InitCommands\\BaseFeatureInitCommand.cs",
+              "RelativeToolTip": "ConsoleEngine\\Domain\\Abstractions\\InitCommands\\BaseFeatureInitCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:04:15.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TimeFeatureInitCommand.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Time\\Initialization\\TimeFeatureInitCommand.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Time\\Initialization\\TimeFeatureInitCommand.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Time\\Initialization\\TimeFeatureInitCommand.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Time\\Initialization\\TimeFeatureInitCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:15:33.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITimeService.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Time\\Services\\ITimeService.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Time\\Services\\ITimeService.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Time\\Services\\ITimeService.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Time\\Services\\ITimeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:59:00.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OutputService.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Output\\Services\\OutputService.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Output\\Services\\OutputService.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Output\\Services\\OutputService.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Output\\Services\\OutputService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:26:27.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TimeManager.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Time\\Managers\\TimeManager.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Time\\Managers\\TimeManager.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Time\\Managers\\TimeManager.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Time\\Managers\\TimeManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:53:05.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OutputItem.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Output\\Models\\OutputItem.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Output\\Models\\OutputItem.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Output\\Models\\OutputItem.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Output\\Models\\OutputItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:41:02.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "InputService.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Input\\Services\\InputService.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Input\\Services\\InputService.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Input\\Services\\InputService.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Input\\Services\\InputService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:36:49.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IInputService.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Input\\Services\\IInputService.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Input\\Services\\IInputService.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Input\\Services\\IInputService.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Input\\Services\\IInputService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:36:14.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Input\\Managers\\InputManager.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\Input\\Managers\\InputManager.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\Input\\Managers\\InputManager.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\Input\\Managers\\InputManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:21:52.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GameLoop.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\GameLoop\\GameLoop.cs",
+              "RelativeDocumentMoniker": "ConsoleEngine\\Features\\GameLoop\\GameLoop.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\ConsoleEngine\\Features\\GameLoop\\GameLoop.cs",
+              "RelativeToolTip": "ConsoleEngine\\Features\\GameLoop\\GameLoop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:03:27.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\BattleShipGame\\Program.cs",
+              "RelativeDocumentMoniker": "BattleShipGame\\Program.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab 1_test\\BattleShipGame\\BattleShipGame\\BattleShipGame\\Program.cs",
+              "RelativeToolTip": "BattleShipGame\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:01:11.024Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\gameloop\\field\\factories\\fieldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\gameloop\\field\\factories\\fieldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\gameloop\\field\\helpers\\fielditemoutputtranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\gameloop\\field\\helpers\\fielditemoutputtranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\gameloop\\field\\containers\\fieldcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\gameloop\\field\\containers\\fieldcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\output\\services\\outputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\output\\services\\outputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\domain\\enums\\fielditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\domain\\enums\\fielditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\gameloop\\services\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\gameloop\\services\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\gameloop\\field\\models\\fieldcreationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\gameloop\\field\\models\\fieldcreationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\gameloop\\initialization\\gameloopfeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\gameloop\\initialization\\gameloopfeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\gameloop\\gameloopconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\gameloop\\gameloopconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\output\\initialization\\outputfeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\output\\initialization\\outputfeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\input\\initialization\\inputfeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\input\\initialization\\inputfeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\domain\\containers\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\domain\\containers\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\output\\models\\outputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\output\\models\\outputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\output\\services\\ioutputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\output\\services\\ioutputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\input\\services\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\input\\services\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\input\\services\\iinputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\input\\services\\iinputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\features\\gameloop\\services\\igameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\features\\gameloop\\services\\igameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\lab_1_test_2\\lab_1\\lab_1\\domain\\abstract\\basefeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F749D4-9995-4483-BFE3-69D6C672B072}|Lab_1\\Lab_1.csproj|solutionrelative:lab_1\\domain\\abstract\\basefeatureinitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameLoop.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Services\\GameLoop.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\GameLoop\\Services\\GameLoop.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Services\\GameLoop.cs",
+              "RelativeToolTip": "Lab_1\\Features\\GameLoop\\Services\\GameLoop.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwDMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:46:15.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FieldCreationModel.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Field\\Models\\FieldCreationModel.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\GameLoop\\Field\\Models\\FieldCreationModel.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Field\\Models\\FieldCreationModel.cs",
+              "RelativeToolTip": "Lab_1\\Features\\GameLoop\\Field\\Models\\FieldCreationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T14:19:13.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FieldFactory.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Field\\Factories\\FieldFactory.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\GameLoop\\Field\\Factories\\FieldFactory.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Field\\Factories\\FieldFactory.cs",
+              "RelativeToolTip": "Lab_1\\Features\\GameLoop\\Field\\Factories\\FieldFactory.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwFcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T14:18:26.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FieldContainer.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Field\\Containers\\FieldContainer.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\GameLoop\\Field\\Containers\\FieldContainer.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Field\\Containers\\FieldContainer.cs",
+              "RelativeToolTip": "Lab_1\\Features\\GameLoop\\Field\\Containers\\FieldContainer.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwBkAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:55:17.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FieldItem.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Domain\\Enums\\FieldItem.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Domain\\Enums\\FieldItem.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Domain\\Enums\\FieldItem.cs",
+              "RelativeToolTip": "Lab_1\\Domain\\Enums\\FieldItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:56:13.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OutputService.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Output\\Services\\OutputService.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\Output\\Services\\OutputService.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Output\\Services\\OutputService.cs",
+              "RelativeToolTip": "Lab_1\\Features\\Output\\Services\\OutputService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:22:39.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FieldItemOutputTranslator.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Field\\Helpers\\FieldItemOutputTranslator.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\GameLoop\\Field\\Helpers\\FieldItemOutputTranslator.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Field\\Helpers\\FieldItemOutputTranslator.cs",
+              "RelativeToolTip": "Lab_1\\Features\\GameLoop\\Field\\Helpers\\FieldItemOutputTranslator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T17:28:39.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameLoopFeatureInitCommand.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Initialization\\GameLoopFeatureInitCommand.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\GameLoop\\Initialization\\GameLoopFeatureInitCommand.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Initialization\\GameLoopFeatureInitCommand.cs",
+              "RelativeToolTip": "Lab_1\\Features\\GameLoop\\Initialization\\GameLoopFeatureInitCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:45:00.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\StartUp.cs",
+              "RelativeDocumentMoniker": "Lab_1\\StartUp.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\StartUp.cs",
+              "RelativeToolTip": "Lab_1\\StartUp.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:16:21.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameLoopConstants.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\GameLoopConstants.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\GameLoop\\GameLoopConstants.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\GameLoopConstants.cs",
+              "RelativeToolTip": "Lab_1\\Features\\GameLoop\\GameLoopConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T14:56:59.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Program.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Program.cs",
+              "RelativeToolTip": "Lab_1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T12:54:49.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IGameLoop.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Services\\IGameLoop.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\GameLoop\\Services\\IGameLoop.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\GameLoop\\Services\\IGameLoop.cs",
+              "RelativeToolTip": "Lab_1\\Features\\GameLoop\\Services\\IGameLoop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:46:03.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OutputFeatureInitCommand.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Output\\Initialization\\OutputFeatureInitCommand.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\Output\\Initialization\\OutputFeatureInitCommand.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Output\\Initialization\\OutputFeatureInitCommand.cs",
+              "RelativeToolTip": "Lab_1\\Features\\Output\\Initialization\\OutputFeatureInitCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:42:17.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InputFeatureInitCommand.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Input\\Initialization\\InputFeatureInitCommand.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\Input\\Initialization\\InputFeatureInitCommand.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Input\\Initialization\\InputFeatureInitCommand.cs",
+              "RelativeToolTip": "Lab_1\\Features\\Input\\Initialization\\InputFeatureInitCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:39:22.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DependencyContainer.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Domain\\Containers\\DependencyContainer.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Domain\\Containers\\DependencyContainer.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Domain\\Containers\\DependencyContainer.cs",
+              "RelativeToolTip": "Lab_1\\Domain\\Containers\\DependencyContainer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:32:12.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseFeatureInitCommand.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Domain\\Abstract\\BaseFeatureInitCommand.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Domain\\Abstract\\BaseFeatureInitCommand.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Domain\\Abstract\\BaseFeatureInitCommand.cs",
+              "RelativeToolTip": "Lab_1\\Domain\\Abstract\\BaseFeatureInitCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:31:18.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IOutputService.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Output\\Services\\IOutputService.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\Output\\Services\\IOutputService.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Output\\Services\\IOutputService.cs",
+              "RelativeToolTip": "Lab_1\\Features\\Output\\Services\\IOutputService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAACVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:22:29.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InputService.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Input\\Services\\InputService.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\Input\\Services\\InputService.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Input\\Services\\InputService.cs",
+              "RelativeToolTip": "Lab_1\\Features\\Input\\Services\\InputService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:17:18.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OutputModel.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Output\\Models\\OutputModel.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\Output\\Models\\OutputModel.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Output\\Models\\OutputModel.cs",
+              "RelativeToolTip": "Lab_1\\Features\\Output\\Models\\OutputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:23:30.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IInputService.cs",
+              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Input\\Services\\IInputService.cs",
+              "RelativeDocumentMoniker": "Lab_1\\Features\\Input\\Services\\IInputService.cs",
+              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Lab_1_test_2\\Lab_1\\Lab_1\\Features\\Input\\Services\\IInputService.cs",
+              "RelativeToolTip": "Lab_1\\Features\\Input\\Services\\IInputService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:16:59.921Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

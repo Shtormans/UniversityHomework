@@ -1,0 +1,14 @@
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\bin\Debug\net8.0\Actual_lab_1.exe
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\bin\Debug\net8.0\Actual_lab_1.deps.json
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\bin\Debug\net8.0\Actual_lab_1.runtimeconfig.json
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\bin\Debug\net8.0\Actual_lab_1.dll
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\bin\Debug\net8.0\Actual_lab_1.pdb
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\obj\Debug\net8.0\Actual_lab_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\obj\Debug\net8.0\Actual_lab_1.AssemblyInfoInputs.cache
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\obj\Debug\net8.0\Actual_lab_1.AssemblyInfo.cs
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\obj\Debug\net8.0\Actual_lab_1.csproj.CoreCompileInputs.cache
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\obj\Debug\net8.0\Actual_lab_1.dll
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\obj\Debug\net8.0\refint\Actual_lab_1.dll
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\obj\Debug\net8.0\Actual_lab_1.pdb
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\obj\Debug\net8.0\Actual_lab_1.genruntimeconfig.cache
+D:\Desktop\Практические\University\Конструювання ПЗ\Actual lab_1\Actual_lab_1\Actual_lab_1\obj\Debug\net8.0\ref\Actual_lab_1.dll
