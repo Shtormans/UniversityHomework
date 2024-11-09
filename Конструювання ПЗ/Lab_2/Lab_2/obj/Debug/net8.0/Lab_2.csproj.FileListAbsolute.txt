@@ -12,3 +12,4 @@ D:\Desktop\Практические\University\Конструювання ПЗ\L
 D:\Desktop\Практические\University\Конструювання ПЗ\Lab_2\Lab_2\obj\Debug\net8.0\Lab_2.pdb
 D:\Desktop\Практические\University\Конструювання ПЗ\Lab_2\Lab_2\obj\Debug\net8.0\Lab_2.genruntimeconfig.cache
 D:\Desktop\Практические\University\Конструювання ПЗ\Lab_2\Lab_2\obj\Debug\net8.0\ref\Lab_2.dll
+D:\Desktop\Практические\University\Конструювання ПЗ\Lab_2\Lab_2\obj\Debug\net8.0\Lab_2.sourcelink.json

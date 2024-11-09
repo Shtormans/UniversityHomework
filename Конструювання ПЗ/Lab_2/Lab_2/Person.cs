@@ -8,7 +8,7 @@ public class Person
 
     public Person() : this("Default Name", "Default Surname", DateTime.UtcNow)
     {
-        
+
     }
 
     public Person(string name, string surname, DateTime birthday)
@@ -18,9 +18,9 @@ public class Person
         _birthday = birthday;
     }
 
-    public string Name => _name;
-    public string Surname => _surname;
-    public DateTime Birthday => _birthday;
+    public string Name { get => _name; set => _name = value; }
+    public string Surname { get => _surname; set => _surname = value; }
+    public DateTime Birthday { get => _birthday; set => _birthday = value; }
 
     public int BirthdayYear
     {
