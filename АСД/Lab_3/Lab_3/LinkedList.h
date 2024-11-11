@@ -71,5 +71,38 @@ public:
 		m_first = nullptr;
 		m_last = nullptr;
 	}
+
+	class Iterator
+	{
+	private:
+		Node<T>* m_current;
+
+	public:
+		Iterator(LinkedList<T>* list)
+		{
+			m_current = list->m_first;
+		}
+
+		T GetCurrent()
+		{
+			return m_current->Data;
+		}
+
+		bool MoveNext()
+		{
+			if (m_current->Next == nullptr)
+			{
+				return false;
+			}
+
+			m_current = m_current->Next;
+			return true;
+		}
+	};
+
+	Iterator GetIterator()
+	{
+		return Iterator(this);
+	}
 };
 
