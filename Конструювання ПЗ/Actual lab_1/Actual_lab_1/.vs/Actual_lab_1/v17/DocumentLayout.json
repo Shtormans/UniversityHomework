@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\",
+  "WorkspaceRootPath": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\gameinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\gameinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\extensions\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\extensions\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\dtos\\fieldcreationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\dtos\\fieldcreationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\dtos\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\dtos\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\enums\\fielditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\enums\\fielditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\factories\\fieldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\unityprojects\\studying\\universityhomework\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\factories\\fieldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\factories\\fieldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\constants\\stringconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\unityprojects\\studying\\universityhomework\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\gameinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\gameinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\unityprojects\\studying\\universityhomework\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\dtos\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\dtos\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\unityprojects\\studying\\universityhomework\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\unityprojects\\studying\\universityhomework\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\extensions\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\extensions\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\unityprojects\\studying\\universityhomework\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\dtos\\fieldcreationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\dtos\\fieldcreationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\unityprojects\\studying\\universityhomework\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\enums\\fielditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\enums\\fielditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\unityprojects\\studying\\universityhomework\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\constants\\stringconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\constants\\stringconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\constants\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\unityprojects\\studying\\universityhomework\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\constants\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\constants\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\university\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\extensions\\matrixextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|d:\\unityprojects\\studying\\universityhomework\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0437\\actual lab_1\\actual_lab_1\\actual_lab_1\\extensions\\matrixextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141887F3-6EAE-4585-8215-649554DAE74D}|Actual_lab_1\\Actual_lab_1.csproj|solutionrelative:actual_lab_1\\extensions\\matrixextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,137 +50,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MatrixExtensions.cs",
-              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Extensions\\MatrixExtensions.cs",
-              "RelativeDocumentMoniker": "Actual_lab_1\\Extensions\\MatrixExtensions.cs",
-              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Extensions\\MatrixExtensions.cs",
-              "RelativeToolTip": "Actual_lab_1\\Extensions\\MatrixExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "DocumentIndex": 6,
+              "Title": "FieldItem.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Enums\\FieldItem.cs",
+              "RelativeDocumentMoniker": "Actual_lab_1\\Enums\\FieldItem.cs",
+              "ToolTip": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Enums\\FieldItem.cs",
+              "RelativeToolTip": "Actual_lab_1\\Enums\\FieldItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:42:09.303Z",
+              "WhenOpened": "2024-11-03T12:33:06.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Program.cs",
+              "RelativeDocumentMoniker": "Actual_lab_1\\Program.cs",
+              "ToolTip": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Program.cs",
+              "RelativeToolTip": "Actual_lab_1\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T11:50:19.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "FieldFactory.cs",
-              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Factories\\FieldFactory.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Factories\\FieldFactory.cs",
               "RelativeDocumentMoniker": "Actual_lab_1\\Factories\\FieldFactory.cs",
-              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Factories\\FieldFactory.cs",
+              "ToolTip": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Factories\\FieldFactory.cs",
               "RelativeToolTip": "Actual_lab_1\\Factories\\FieldFactory.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAABzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T12:38:22.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnumExtensions.cs",
-              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Extensions\\EnumExtensions.cs",
-              "RelativeDocumentMoniker": "Actual_lab_1\\Extensions\\EnumExtensions.cs",
-              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Extensions\\EnumExtensions.cs",
-              "RelativeToolTip": "Actual_lab_1\\Extensions\\EnumExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAjAAAA",
+              "DocumentIndex": 9,
+              "Title": "MatrixExtensions.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Extensions\\MatrixExtensions.cs",
+              "RelativeDocumentMoniker": "Actual_lab_1\\Extensions\\MatrixExtensions.cs",
+              "ToolTip": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Extensions\\MatrixExtensions.cs",
+              "RelativeToolTip": "Actual_lab_1\\Extensions\\MatrixExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:35:28.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FieldItem.cs",
-              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Enums\\FieldItem.cs",
-              "RelativeDocumentMoniker": "Actual_lab_1\\Enums\\FieldItem.cs",
-              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Enums\\FieldItem.cs",
-              "RelativeToolTip": "Actual_lab_1\\Enums\\FieldItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:33:06.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FieldCreationModel.cs",
-              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\DTOs\\FieldCreationModel.cs",
-              "RelativeDocumentMoniker": "Actual_lab_1\\DTOs\\FieldCreationModel.cs",
-              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\DTOs\\FieldCreationModel.cs",
-              "RelativeToolTip": "Actual_lab_1\\DTOs\\FieldCreationModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:32:02.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T12:42:09.303Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GameInitializer.cs",
-              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\GameInitializer.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\GameInitializer.cs",
               "RelativeDocumentMoniker": "Actual_lab_1\\GameInitializer.cs",
-              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\GameInitializer.cs",
+              "ToolTip": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\GameInitializer.cs",
               "RelativeToolTip": "Actual_lab_1\\GameInitializer.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAYwCkAAAA0AAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T11:55:00.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "GameData.cs",
-              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\DTOs\\GameData.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\DTOs\\GameData.cs",
               "RelativeDocumentMoniker": "Actual_lab_1\\DTOs\\GameData.cs",
-              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\DTOs\\GameData.cs",
+              "ToolTip": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\DTOs\\GameData.cs",
               "RelativeToolTip": "Actual_lab_1\\DTOs\\GameData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T11:54:05.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnumExtensions.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Extensions\\EnumExtensions.cs",
+              "RelativeDocumentMoniker": "Actual_lab_1\\Extensions\\EnumExtensions.cs",
+              "ToolTip": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Extensions\\EnumExtensions.cs",
+              "RelativeToolTip": "Actual_lab_1\\Extensions\\EnumExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T12:35:28.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FieldCreationModel.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\DTOs\\FieldCreationModel.cs",
+              "RelativeDocumentMoniker": "Actual_lab_1\\DTOs\\FieldCreationModel.cs",
+              "ToolTip": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\DTOs\\FieldCreationModel.cs",
+              "RelativeToolTip": "Actual_lab_1\\DTOs\\FieldCreationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T12:32:02.073Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "StringConstants.cs",
-              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Constants\\StringConstants.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Constants\\StringConstants.cs",
               "RelativeDocumentMoniker": "Actual_lab_1\\Constants\\StringConstants.cs",
-              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Constants\\StringConstants.cs",
+              "ToolTip": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Constants\\StringConstants.cs",
               "RelativeToolTip": "Actual_lab_1\\Constants\\StringConstants.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T11:52:17.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T11:52:17.854Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Constants.cs",
-              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Constants\\Constants.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Constants\\Constants.cs",
               "RelativeDocumentMoniker": "Actual_lab_1\\Constants\\Constants.cs",
-              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Constants\\Constants.cs",
+              "ToolTip": "D:\\UnityProjects\\Studying\\UniversityHomework\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Constants\\Constants.cs",
               "RelativeToolTip": "Actual_lab_1\\Constants\\Constants.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T11:51:38.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Program.cs",
-              "RelativeDocumentMoniker": "Actual_lab_1\\Program.cs",
-              "ToolTip": "D:\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435\\University\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u041F\u0417\\Actual lab_1\\Actual_lab_1\\Actual_lab_1\\Program.cs",
-              "RelativeToolTip": "Actual_lab_1\\Program.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAArwHwAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T11:50:19.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T11:51:38.041Z"
             }
           ]
         }

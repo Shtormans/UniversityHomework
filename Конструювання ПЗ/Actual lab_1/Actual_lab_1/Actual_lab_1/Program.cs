@@ -32,7 +32,7 @@ internal class Program
         while (true)
         {
             OutputField(data.Field, aim);
-            Console.WriteLine($"{StringConstants.BulletsLeft} {bullets}");
+            Console.WriteLine($"{StringConstants.BulletsLeft} {bullets}       ");
 
             ConsoleKey key = InputKey();
 
@@ -50,12 +50,14 @@ internal class Program
 
             if (shipCells == 0)
             {
+                Console.Clear();
                 Console.WriteLine(StringConstants.YouWon);
                 break;
             }
 
             if (bullets == 0)
             {
+                Console.Clear();
                 Console.WriteLine(StringConstants.YouLost);
                 break;
             }
