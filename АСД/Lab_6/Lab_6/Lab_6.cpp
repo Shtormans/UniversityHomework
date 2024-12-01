@@ -91,8 +91,8 @@ void HashString()
 
 	for (int i = 0; i < key.length(); i++)
 	{
-		hash = (hash + key[i] * (int)pow(A, i)) % M;
+		hash = (hash + key[i] * (int)pow(A, i));
 	}
 
-	std::cout << "Hash: " << hash;
+	std::cout << "Hash: " << hash % M;
 }

@@ -3,7 +3,7 @@
 #include <iostream>
 #include <functional>
 
-#define DefaultCapacity 5
+#define DefaultCapacity 3
 #define CapacityMultiplier 2
 
 template<typename TKey, typename TValue>

@@ -75,7 +75,7 @@ public:
 		m_length--;
 	}
 
-	void RemoveEach(T value)
+	void RemoveEach(int value)
 	{
 		int currentIndex = 0;
 		int deletions = 0;
