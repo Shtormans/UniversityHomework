@@ -79,7 +79,7 @@ public:
 			return;
 		}
 
-		while (current->Next != nullptr && current->Next->IsDeleted)
+		while (current->Next != nullptr && !current->Next->IsDeleted)
 		{
 			current = current->Next;
 		}
