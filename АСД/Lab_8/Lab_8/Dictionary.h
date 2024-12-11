@@ -2,7 +2,7 @@
 
 #include <functional>
 
-#define DefaultCapacity 5
+#define DefaultCapacity 3
 #define CapacityMultiplier 2
 
 template<typename TKey, typename TValue>
@@ -137,7 +137,7 @@ public:
 
 			if (m_table[i].IsDeleted)
 			{
-				os << "deleted";
+				os << "empty";
 			}
 			else
 			{
