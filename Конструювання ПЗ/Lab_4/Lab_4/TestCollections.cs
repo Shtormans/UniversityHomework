@@ -49,7 +49,7 @@ internal class TestCollections
     {
         long startTime = Stopwatch.GetTimestamp();
 
-        _genericDictionary.Keys.FirstOrDefault(person => person == toFind);
+        _genericDictionary.GetValueOrDefault(toFind);
 
         return Stopwatch.GetElapsedTime(startTime);
     }
@@ -58,7 +58,7 @@ internal class TestCollections
     {
         long startTime = Stopwatch.GetTimestamp();
 
-        _stringDictionary.Keys.FirstOrDefault(person => person == toFind);
+        _stringDictionary.GetValueOrDefault(toFind);
 
         return Stopwatch.GetElapsedTime(startTime);
     }
@@ -83,7 +83,7 @@ internal class TestCollections
 
     public static Doctor CreateSimpleInstance(int extraArg)
     {
-        Person person = new($"Name {extraArg}", $"Surname {extraArg}", DateTime.UtcNow.AddYears(extraArg));
+        Person person = new($"Name {extraArg}", $"Surname {extraArg}", DateTime.UtcNow.AddYears(-(extraArg > 2020 ? 1900 : extraArg)));
 
         return new(person, $"Specialty {extraArg}", Category.Second, extraArg);
     }

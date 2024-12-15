@@ -2,11 +2,15 @@
 
 internal class DoctorCollection
 {
+    private const int DefaultDoctorsCount = 3;
     private List<Doctor> _doctors = new();
 
     public void AddDefaults()
     {
-        
+        _doctors = Enumerable
+            .Range(0, DefaultDoctorsCount)
+            .Select(TestCollections.CreateSimpleInstance)
+            .ToList();
     }
 
     public void AddDoctors(params Doctor[] doctors)

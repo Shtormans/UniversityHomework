@@ -27,6 +27,7 @@ internal class Doctor : Person, IEnumerable<Diploma>
         _experienceYears = experienceYears;
 
         _diplomas = [];
+        _patients = [];
     }
 
     public Person Person => (Person)base.DeepCopy();
@@ -78,7 +79,7 @@ internal class Doctor : Person, IEnumerable<Diploma>
 
     public override string ToString()
     {
-        return $"{nameof(Person)}: {Person},\n{nameof(Specialty)}: {Specialty},\n{nameof(Category)}: {Category},\n{nameof(ExperienceYears)}: {ExperienceYears},\n{nameof(Diplomas)}:\n{string.Join(";\n", Diplomas)},\n{nameof(Patients)}:\n{string.Join(";\n", Patients)}";
+        return $"{nameof(Person)}:\n{Person},\n{nameof(Specialty)}: {Specialty},\n{nameof(Category)}: {Category},\n{nameof(ExperienceYears)}: {ExperienceYears},\n{nameof(Diplomas)}:\n{string.Join(";\n", Diplomas)}\n{nameof(Patients)}:\n{string.Join(";\n", Patients)}";
     }
 
     public override string ToShortString()
