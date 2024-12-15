@@ -99,10 +99,12 @@ void Output()
 
 int GetHashCode(int key, int M)
 {
-	const double A = 0.618033;
+	return key % M;
+
+	/*const double A = 0.618033;
 
 	double fraction = (double)key * A;
 	int hash = (int)((double)M * (fraction - (int)fraction));
 
-	return hash;
+	return hash;*/
 }
