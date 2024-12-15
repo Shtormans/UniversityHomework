@@ -1,0 +1,31 @@
+Item: 0
+In Use: true
+Size: 34
+Unoccupied size: 2
+Functional size: 32
+
+Item: 1
+In Use: true
+Size: 36
+Unoccupied size: 4
+Functional size: 32
+
+Item: 2
+In Use: true
+Size: 37
+Unoccupied size: 5
+Functional size: 32
+
+Item: 3
+In Use: true
+Size: 532
+Unoccupied size: 500
+Functional size: 32
+
+Item: 4
+In Use: false
+Size: 417
+Unoccupied size: 385
+Functional size: 32
+
+
