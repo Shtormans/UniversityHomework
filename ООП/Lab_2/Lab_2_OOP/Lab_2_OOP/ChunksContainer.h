@@ -145,13 +145,9 @@ private:
 				continue;
 			}
 
-			if (min == nullptr)
+			if (min == nullptr || current->Size < min->Size)
 			{
 				min = current;
-			}
-			else if (current->Size < min->Size)
-			{
-				current = min;
 			}
 
 			current = current->Next;

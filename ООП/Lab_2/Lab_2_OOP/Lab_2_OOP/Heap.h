@@ -10,6 +10,7 @@ class Heap
 {
 private:
 	ChunksContainer _chunks;
+	void* allocatedMemory;
 
 	static void* InternalAlloc(size_t size)
 	{
@@ -30,9 +31,14 @@ public:
 	Heap(size_t memorySize)
 	{
 		size_t size = ChunksContainer::GetActualMemorySize(memorySize);
-		void* memory = InternalAlloc(size);
+		allocatedMemory = InternalAlloc(size);
 
-		_chunks = ChunksContainer(size, memory);
+		_chunks = ChunksContainer(size, allocatedMemory);
+	}
+
+	~Heap()
+	{
+		free(allocatedMemory);
 	}
 
 	void* Allocate(const size_t size)
