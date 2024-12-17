@@ -21,7 +21,12 @@ private:
 			return;
 
 		down_keys_.push_back(event.key);
-		pressed_keys_.erase(std::remove(pressed_keys_.begin(), pressed_keys_.end(), event.key), pressed_keys_.end());
+		pressed_keys_.erase(
+			std::remove_if(
+				pressed_keys_.begin(), pressed_keys_.end(), 
+				[event](sf::Event::KeyEvent key) {return key.scancode == event.key.scancode; }),
+			pressed_keys_.end()
+		);
 	}
 
 	void try_set_up_key(const sf::Event& event)
