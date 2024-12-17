@@ -56,7 +56,7 @@ internal class Person : IDateAndCopy, IComparable<Person>, IComparer<Person>
 
     public override int GetHashCode()
     {
-        return HashCode.Combine(Name, Surname, Birthday);
+        return HashCode.Combine(Name, Surname, Birthday.Date);
     }
 
     public int CompareTo(Person? other)

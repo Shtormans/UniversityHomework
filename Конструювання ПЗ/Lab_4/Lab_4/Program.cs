@@ -35,7 +35,7 @@ internal class Program
         Console.WriteLine(doctorCollection.ToShortString());
         Console.WriteLine();
 
-        const int collectionSize = 100000;
+        int collectionSize = InputCount();
         TestCollections testCollections = new(collectionSize);
 
         Console.WriteLine("\n\n");
@@ -85,5 +85,18 @@ internal class Program
         Console.WriteLine($"{nameof(testCollections.CalculateStringDictionaryKeyTimestamp)}, {testCollections.CalculateStringDictionaryKeyTimestamp(notExistDoctor.Surname).TotalMilliseconds}");
         Console.WriteLine($"{nameof(testCollections.CalculateGenericDictionaryValueTimestamp)}, {testCollections.CalculateGenericDictionaryValueTimestamp(notExistDoctor).TotalMilliseconds}");
         Console.WriteLine($"{nameof(testCollections.CalculateStringDictionaryValueTimestamp)}, {testCollections.CalculateStringDictionaryValueTimestamp(notExistDoctor).TotalMilliseconds}");
+    }
+
+    private static int InputCount()
+    {
+        while (true)
+        {
+            Console.WriteLine("Input count");
+
+            if (int.TryParse(Console.ReadLine(), out int count) && count > 0)
+            {
+                return count;
+            }
+        }
     }
 }

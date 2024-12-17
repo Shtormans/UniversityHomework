@@ -18,7 +18,7 @@ internal class TestCollections
 
         for (int i = 0; i < length; i++)
         {
-            Doctor doctor = CreateSimpleInstance(i + 1);
+            Doctor doctor = CreateSimpleInstance(i);
 
             _genericList.Add(doctor);
             _stringList.Add(doctor.Surname);
@@ -31,7 +31,7 @@ internal class TestCollections
     {
         long startTime = Stopwatch.GetTimestamp();
 
-        _genericList.FirstOrDefault(person => person == toFind);
+        Console.WriteLine(_genericList.Contains(toFind));
 
         return Stopwatch.GetElapsedTime(startTime);
     }
@@ -40,7 +40,7 @@ internal class TestCollections
     {
         long startTime = Stopwatch.GetTimestamp();
 
-        _stringList.FirstOrDefault(surname => surname == toFind);
+        Console.WriteLine(_stringList.Contains(toFind));
 
         return Stopwatch.GetElapsedTime(startTime);
     }
@@ -49,7 +49,7 @@ internal class TestCollections
     {
         long startTime = Stopwatch.GetTimestamp();
 
-        _genericDictionary.GetValueOrDefault(toFind);
+        Console.WriteLine(_genericDictionary.ContainsKey(toFind));
 
         return Stopwatch.GetElapsedTime(startTime);
     }
@@ -58,7 +58,7 @@ internal class TestCollections
     {
         long startTime = Stopwatch.GetTimestamp();
 
-        _stringDictionary.GetValueOrDefault(toFind);
+        Console.WriteLine(_stringDictionary.ContainsKey(toFind));
 
         return Stopwatch.GetElapsedTime(startTime);
     }
@@ -67,7 +67,7 @@ internal class TestCollections
     {
         long startTime = Stopwatch.GetTimestamp();
 
-        _genericDictionary.Values.FirstOrDefault(doctor => doctor == toFind);
+        Console.WriteLine(_genericDictionary.ContainsValue(toFind));
 
         return Stopwatch.GetElapsedTime(startTime);
     }
@@ -76,7 +76,7 @@ internal class TestCollections
     {
         long startTime = Stopwatch.GetTimestamp();
 
-        _stringDictionary.Values.FirstOrDefault(doctor => doctor == toFind);
+        Console.WriteLine(_stringDictionary.ContainsValue(toFind));
 
         return Stopwatch.GetElapsedTime(startTime);
     }
