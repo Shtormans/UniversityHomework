@@ -1,23 +1,37 @@
+#include <iostream>
 #include <SFML/Graphics.hpp>
 
-#include "EventManager.h"
+#include "GameObject.h"
+#include "GameObjectsContainer.h"
+#include "Input.h"
+#include "MovableObject.h"
+#include "Screen.h"
+#include "Time.h"
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
+	sf::RenderWindow window(sf::VideoMode(800, 800), "SFML works!");
 
-    EventManager manager(&window);
+	sf::Clock clock;
 
-    while (window.isOpen())
-    {
-        manager.UpdateEvents();
+	Input manager(&window);
+	Screen screen(&window);
+	Time time(clock);
 
-        window.clear();
-        window.draw(shape);
-        window.display();
-    }
+	GameObjectsContainer container;
+	container.Instantiate(new MovableObject());
 
-    return 0;
+	GameObject object(&container);
+
+	while (window.isOpen())
+	{
+		window.clear();
+		time.restart();
+
+		container.update(&window);
+
+		window.display();
+	}
+
+	return 0;
 }

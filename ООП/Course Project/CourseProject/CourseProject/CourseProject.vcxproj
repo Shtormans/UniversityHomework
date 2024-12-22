@@ -107,7 +107,7 @@
       <AdditionalIncludeDirectories>D:\Programming\SFML-2.6.2\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>D:\Programming\SFML-2.6.2\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -132,11 +132,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="Time.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="GameObjectsContainer.h" />
+    <ClInclude Include="Input.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="MovableObject.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="Transform.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

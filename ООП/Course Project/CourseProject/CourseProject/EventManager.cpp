@@ -1,3 +1,3 @@
-#include "EventManager.h"
+#include "Input.h"
 
-EventManager* EventManager::instance_ = nullptr;
+Input* Input::instance_ = nullptr;

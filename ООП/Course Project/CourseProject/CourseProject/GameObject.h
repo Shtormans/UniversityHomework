@@ -1,33 +1,47 @@
 #pragma once
-#include <vector>
+#include <SFML/Graphics/RenderWindow.hpp>
+
+#include "Transform.h"
+
+class GameObjectsContainer;
 
 class GameObject
 {
-private:
-	GameObject* parent_ = nullptr;
-	std::vector<GameObject*> children_;
+protected:
+	static GameObjectsContainer* objectsContainer_;
 
 public:
-	GameObject(std::vector<GameObject*> children, GameObject* parent = nullptr)
-		: parent_(parent), children_(std::move(children))
+	Transform* transform;
+
+	GameObject(GameObjectsContainer* objectsContainer)
 	{
-		
+		objectsContainer_ = objectsContainer;
+
+		transform = new Transform(this);
 	}
 
-	virtual void update()
+	GameObject()
 	{
-		for (const auto child: children_)
-		{
-			child->update();
-		}
+		transform = new Transform(this);
+	}
+
+	virtual ~GameObject()
+	{
+		delete transform;
+	}
+
+	virtual void update(sf::RenderWindow* window)
+	{
+
 	}
 
 	virtual void awake()
 	{
-		for (const auto child : children_)
-		{
-			child->awake();
-		}
+	}
+
+	virtual void on_destroy()
+	{
+		
 	}
 };
 
