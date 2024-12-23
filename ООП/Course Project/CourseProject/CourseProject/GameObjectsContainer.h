@@ -1,12 +1,15 @@
 #pragma once
 #include <vector>
 
+#include "GameObject.h"
+
 class GameObjectsContainer
 {
-private:
+public:
 	std::vector<GameObject*> objects_;
 
-public:
+	GameObjectsContainer() = default;
+
 	void Instantiate(GameObject* object, Transform* parent = nullptr)
 	{
 		objects_.push_back(object);
@@ -25,11 +28,25 @@ public:
 		delete object;
 	}
 
+	template<typename T>
+	std::vector<T*> find_of_type()
+	{
+		std::vector<T*> foundObjects;
+
+		for (auto* object : objects_) {
+			if (T* component = object->get_component<T>()) {
+				foundObjects.push_back(component);
+			}
+		}
+
+		return foundObjects;
+	}
+
 	void update(sf::RenderWindow* window) const
 	{
 		for (auto object : objects_)
 		{
-			object->update(window);
+			object->update();
 		}
 	}
 };

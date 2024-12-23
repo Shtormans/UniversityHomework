@@ -1,43 +1,43 @@
 #pragma once
-#include <SFML/Graphics/CircleShape.hpp>
 
-#include "GameObject.h"
+#include "SelectableUser.h"
 #include "Time.h"
 
-class MovableObject : public GameObject
+class MovableObject : public SelectableUser
 {
 private:
 	float speed_;
-	sf::CircleShape* shape_;
+	Graphic* graphic_;
 
 	void awake() override
 	{
-		speed_ = 80;
+		SelectableUser::awake();
 
-		shape_ = new sf::CircleShape(20.f);
-		shape_->setFillColor(sf::Color::Green);
+		graphic_ = gameObject->get_component<Graphic>();
+		speed_ = 150;
 	}
 
-	void update(sf::RenderWindow* window) override
+	void update() override
 	{
+		if (!is_selected())
+		{
+			return;
+		}
+
 		move();
-
-		window->draw(*shape_, *transform);
-	}
-
-	void on_destroy() override
-	{
-		delete shape_;
 	}
 
 	void move()
 	{
-		sf::Vector2f position = transform->get_local_position();
+		sf::Vector2f position = transform->get_position();
 		sf::Vector2f direction = get_direction();
 
 		sf::Vector2f newPosition = position + direction * speed_ * Time::get_delta_time();
 
-		transform->set_local_position(newPosition);
+		newPosition.x = Utils::repeat(newPosition.x, -graphic_->get_rect().width, Screen::get_size().x);
+		newPosition.y = Utils::repeat(newPosition.y, -graphic_->get_rect().height, Screen::get_size().y);
+
+		transform->set_position(newPosition);
 	}
 
 	sf::Vector2f get_direction()

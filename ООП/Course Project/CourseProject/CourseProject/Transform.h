@@ -68,14 +68,14 @@ public:
 
 	void set_parent(Transform* parent)
 	{
-		if (parent != nullptr)
+		if (parent_ != nullptr)
 		{
 			parent_->children_.erase(std::remove(parent_->children_.begin(), parent_->children_.end(), this), parent_->children_.end());
 		}
 
 		parent_ = parent;
 
-		if (parent != nullptr)
+		if (parent_ != nullptr)
 		{
 			parent_->children_.push_back(this);
 		}

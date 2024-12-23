@@ -104,12 +104,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Programming\SFML-2.6.2\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\University\UniversityHomework\SFML-2.6.2\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\Programming\SFML-2.6.2\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\USER\Desktop\University\UniversityHomework\SFML-2.6.2\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
     </Link>
@@ -131,20 +131,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ColorChangeable.cpp" />
     <ClCompile Include="EventManager.cpp" />
-    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="MonoBehaviour.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="SelectableObject.cpp" />
     <ClCompile Include="Time.cpp" />
+    <ClCompile Include="TrailCreator.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameObjectsContainer.h" />
-    <ClInclude Include="Input.h" />
+    <ClInclude Include="ColorChangeable.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectsContainer.h" />
+    <ClInclude Include="Graphic.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="MonoBehaviour.h" />
+    <ClInclude Include="MouseFollower.h" />
     <ClInclude Include="MovableObject.h" />
     <ClInclude Include="Screen.h" />
+    <ClInclude Include="SelectableObject.h" />
+    <ClInclude Include="SelectablesContainer.h" />
+    <ClInclude Include="SelectableUser.h" />
     <ClInclude Include="Time.h" />
+    <ClInclude Include="TrailCreator.h" />
     <ClInclude Include="Transform.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="VisibilitySetter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

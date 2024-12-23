@@ -18,6 +18,7 @@ public:
 		}
 
 		instance_ = this;
+		window_ = window;
 	}
 
 	static bool get_key(const sf::Keyboard::Key key)
