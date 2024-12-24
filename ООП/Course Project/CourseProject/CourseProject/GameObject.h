@@ -94,5 +94,13 @@ public:
 			component->on_destroy();
 		}
 	}
+
+	virtual void on_collision_stay(GameObject* other)
+	{
+		for (const auto component : components_)
+		{
+			component->on_collision_stay(other);
+		}
+	}
 };
 

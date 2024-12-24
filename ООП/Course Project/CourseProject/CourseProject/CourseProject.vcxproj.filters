@@ -92,5 +92,8 @@
     <ClInclude Include="MouseFollower.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Retracter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

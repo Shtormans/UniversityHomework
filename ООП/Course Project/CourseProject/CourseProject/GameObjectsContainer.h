@@ -5,12 +5,45 @@
 
 class GameObjectsContainer
 {
+private:
+	void check_for_collision() const
+	{
+		for (int i = 0; i < objects_.size(); i++)
+		{
+			auto object = objects_[i];
+			Graphic* graphic = object->get_component<Graphic>();
+
+			if (graphic == nullptr)
+			{
+				continue;
+			}
+
+			for (int j = i + 1; j < objects_.size(); j++)			
+			{
+				auto other = objects_[j];
+
+				Graphic* otherGraphic = other->get_component<Graphic>();
+
+				if (otherGraphic == nullptr)
+				{
+					continue;
+				}
+
+				if (graphic->collides(otherGraphic->get_rect()))
+				{
+					object->on_collision_stay(other);
+					other->on_collision_stay(object);
+				}
+			}
+		}
+	}
+
 public:
 	std::vector<GameObject*> objects_;
 
 	GameObjectsContainer() = default;
 
-	void Instantiate(GameObject* object, Transform* parent = nullptr)
+	void instantiate(GameObject* object, Transform* parent = nullptr)
 	{
 		objects_.push_back(object);
 
@@ -18,7 +51,7 @@ public:
 		object->awake();
 	}
 
-	void Destroy(GameObject* object)
+	void destroy(GameObject* object)
 	{
 		objects_.erase(std::remove(objects_.begin(), objects_.end(), object), objects_.end());
 
@@ -48,6 +81,8 @@ public:
 		{
 			object->update();
 		}
+
+		check_for_collision();
 	}
 };
 

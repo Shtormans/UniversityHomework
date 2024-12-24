@@ -23,7 +23,7 @@ class SelectablesContainer : public MonoBehaviour
 
 		for (auto element : selectables_)
 		{
-			if (element->try_select())
+			if (element->can_select())
 			{
 				if (last_selected != nullptr)
 				{
@@ -31,6 +31,8 @@ class SelectablesContainer : public MonoBehaviour
 				}
 
 				last_selected = element;
+
+				last_selected->select();
 
 				return;
 			}

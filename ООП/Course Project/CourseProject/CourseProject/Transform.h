@@ -10,8 +10,6 @@ class Transform : public sf::Transform
 private:
 	sf::Vector2f position_;
 
-	Transform* parent_;
-	std::vector<Transform*> children_;
 
 	sf::Vector2f get_parent_position() const
 	{
@@ -24,6 +22,8 @@ private:
 	}
 
 public:
+	std::vector<Transform*> children_;
+	Transform* parent_;
 	GameObject* gameObject;
 
 

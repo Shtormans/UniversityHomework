@@ -7,6 +7,7 @@
 #include "Input.h"
 #include "MouseFollower.h"
 #include "MovableObject.h"
+#include "Retracter.h"
 #include "Screen.h"
 #include "SelectableObject.h"
 #include "SelectablesContainer.h"
@@ -24,8 +25,9 @@ void add_objects(GameObjectsContainer* container)
 	obj1->add_component(new ColorChangeable());
 	obj1->add_component(new VisibilitySetter());
 	obj1->add_component(new MouseFollower());
+	obj1->add_component(new Retracter());
 
-	container->Instantiate(obj1);
+	container->instantiate(obj1);
 
 	GameObject* obj2 = new GameObject();
 
@@ -35,16 +37,30 @@ void add_objects(GameObjectsContainer* container)
 	obj2->add_component(new ColorChangeable());
 	obj2->add_component(new VisibilitySetter());
 	obj2->add_component(new MouseFollower());
+	obj2->add_component(new Retracter());
 
-	container->Instantiate(obj2);
+	container->instantiate(obj2);
 	obj2->transform->set_parent(obj1->transform);
 	obj2->transform->set_position({ 100, 20 });
+
+	GameObject* obj3 = new GameObject();
+
+	obj3->add_component(new SelectableObject());
+	obj3->add_component(new MovableObject());
+	obj3->add_component(new Graphic());
+	obj3->add_component(new ColorChangeable());
+	obj3->add_component(new VisibilitySetter());
+	obj3->add_component(new MouseFollower());
+	obj3->add_component(new Retracter());
+
+	container->instantiate(obj3);
+	obj3->transform->set_position({ 300, 300 });
 
 	GameObject* mainObject = new GameObject();
 	mainObject->add_component(new SelectablesContainer());
 	mainObject->add_component(new TrailCreator());
 
-	container->Instantiate(mainObject);
+	container->instantiate(mainObject);
 }
 
 int main()

@@ -8,6 +8,9 @@
 class SelectableObject : public MonoBehaviour
 {
 private:
+	const float selectedThickness = 2;
+	const float deselectedThickness = 0;
+
 	Graphic* graphic_;
 	bool selected;
 
@@ -16,16 +19,8 @@ private:
 		graphic_ = gameObject->get_component<Graphic>();
 	}
 
-	void select()
-	{
-		graphic_->set_outline(2);
-
-		selected = true;
-	}
-
-
 public:
-	bool try_select()
+	bool can_select()
 	{
 		if (selected)
 		{
@@ -41,9 +36,26 @@ public:
 		return false;
 	}
 
+	void select()
+	{
+		graphic_->set_outline(selectedThickness);
+
+		selected = true;
+	}
+
+	void highlight() const
+	{
+		graphic_->set_visibility(true);
+	}
+
+	void unhighlight() const
+	{
+		graphic_->set_visibility(false);
+	}
+
 	void deselect()
 	{
-		graphic_->set_outline(0);
+		graphic_->set_outline(deselectedThickness);
 
 		selected = false;
 	}

@@ -149,6 +149,7 @@
     <ClInclude Include="MonoBehaviour.h" />
     <ClInclude Include="MouseFollower.h" />
     <ClInclude Include="MovableObject.h" />
+    <ClInclude Include="Retracter.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="SelectableObject.h" />
     <ClInclude Include="SelectablesContainer.h" />

@@ -19,18 +19,9 @@ public:
 		this->transform = transform;
 	}
 
-	virtual void update()
-	{
-
-	}
-
-	virtual void awake()
-	{
-	}
-
-	virtual void on_destroy()
-	{
-		
-	}
+	virtual void update() {}
+	virtual void awake() {}
+	virtual void on_destroy() {}
+	virtual void on_collision_stay(GameObject* other) {}
 };
 
