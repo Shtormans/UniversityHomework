@@ -1,5 +1,6 @@
 #pragma once
 
+#include "Input.h"
 #include "SelectableUser.h"
 
 class ColorChangeable : public SelectableUser

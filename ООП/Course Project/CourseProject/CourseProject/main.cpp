@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 
 #include "ColorChangeable.h"
+#include "CompositeCreator.h"
+#include "FiguresCreator.h"
 #include "MonoBehaviour.h"
 #include "GameObjectsContainer.h"
 #include "Input.h"
@@ -17,48 +19,11 @@
 
 void add_objects(GameObjectsContainer* container)
 {
-	GameObject* obj1 = new GameObject();
-
-	obj1->add_component(new SelectableObject());
-	obj1->add_component(new MovableObject());
-	obj1->add_component(new Graphic());
-	obj1->add_component(new ColorChangeable());
-	obj1->add_component(new VisibilitySetter());
-	obj1->add_component(new MouseFollower());
-	obj1->add_component(new Retracter());
-
-	container->instantiate(obj1);
-
-	GameObject* obj2 = new GameObject();
-
-	obj2->add_component(new SelectableObject());
-	obj2->add_component(new MovableObject());
-	obj2->add_component(new Graphic());
-	obj2->add_component(new ColorChangeable());
-	obj2->add_component(new VisibilitySetter());
-	obj2->add_component(new MouseFollower());
-	obj2->add_component(new Retracter());
-
-	container->instantiate(obj2);
-	obj2->transform->set_parent(obj1->transform);
-	obj2->transform->set_position({ 100, 20 });
-
-	GameObject* obj3 = new GameObject();
-
-	obj3->add_component(new SelectableObject());
-	obj3->add_component(new MovableObject());
-	obj3->add_component(new Graphic());
-	obj3->add_component(new ColorChangeable());
-	obj3->add_component(new VisibilitySetter());
-	obj3->add_component(new MouseFollower());
-	obj3->add_component(new Retracter());
-
-	container->instantiate(obj3);
-	obj3->transform->set_position({ 300, 300 });
-
 	GameObject* mainObject = new GameObject();
 	mainObject->add_component(new SelectablesContainer());
 	mainObject->add_component(new TrailCreator());
+	mainObject->add_component(new CompositeCreator());
+	mainObject->add_component(new FiguresCreator());
 
 	container->instantiate(mainObject);
 }

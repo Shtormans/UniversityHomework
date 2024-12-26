@@ -3,6 +3,8 @@
 #include "MonoBehaviour.h"
 #include "Transform.h"
 
+class GameObjectsContainer;
+
 class GameObject
 {
 public:

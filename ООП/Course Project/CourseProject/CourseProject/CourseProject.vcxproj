@@ -142,6 +142,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ColorChangeable.h" />
+    <ClInclude Include="FiguresCreator.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameObjectsContainer.h" />
     <ClInclude Include="Graphic.h" />
@@ -157,6 +158,7 @@
     <ClInclude Include="Time.h" />
     <ClInclude Include="TrailCreator.h" />
     <ClInclude Include="Transform.h" />
+    <ClInclude Include="CompositeCreator.h" />
     <ClInclude Include="Utils.h" />
     <ClInclude Include="VisibilitySetter.h" />
   </ItemGroup>

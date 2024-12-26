@@ -40,12 +40,13 @@ private:
 
 public:
 	std::vector<GameObject*> objects_;
+	std::vector<GameObject*> to_add_;
 
 	GameObjectsContainer() = default;
 
 	void instantiate(GameObject* object, Transform* parent = nullptr)
 	{
-		objects_.push_back(object);
+		to_add_.push_back(object);
 
 		object->transform->set_parent(parent);
 		object->awake();
@@ -75,7 +76,7 @@ public:
 		return foundObjects;
 	}
 
-	void update(sf::RenderWindow* window) const
+	void update(sf::RenderWindow* window)
 	{
 		for (auto object : objects_)
 		{
@@ -83,6 +84,13 @@ public:
 		}
 
 		check_for_collision();
+
+		for (auto element : to_add_)
+		{
+			objects_.push_back(element);
+		}
+
+		to_add_.clear();
 	}
 };
 

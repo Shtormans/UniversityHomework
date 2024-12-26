@@ -1,9 +1,6 @@
 #pragma once
-#include <SFML/Graphics/RenderWindow.hpp>
 
 #include "Transform.h"
-
-class GameObjectsContainer;
 
 class MonoBehaviour
 {

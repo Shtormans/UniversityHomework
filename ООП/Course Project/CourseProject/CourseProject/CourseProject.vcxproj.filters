@@ -95,5 +95,11 @@
     <ClInclude Include="Retracter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CompositeCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FiguresCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,6 +1,7 @@
 #pragma once
 
 #include "SelectableUser.h"
+#include "Input.h"
 
 class Retracter : public SelectableUser
 {
@@ -18,9 +19,6 @@ class Retracter : public SelectableUser
 		canRetract = true;
 
 		graphic_ = gameObject->get_component<Graphic>();
-
-		startPosition_ = transform->get_position();
-		startColor_ = graphic_->get_color();
 	}
 
 	void update() override
@@ -46,6 +44,13 @@ class Retracter : public SelectableUser
 		{
 			canRetract = true;
 		}
+	}
+
+public:
+	void memorize_data()
+	{
+		startPosition_ = transform->get_position();
+		startColor_ = graphic_->get_color();
 	}
 };
 

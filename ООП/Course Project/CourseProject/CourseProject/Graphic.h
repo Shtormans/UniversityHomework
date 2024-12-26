@@ -1,10 +1,10 @@
 #pragma once
 
-#include <iostream>
 #include <SFML/Graphics/CircleShape.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
 
 #include "MonoBehaviour.h"
+#include "GameObject.h"
 #include "Screen.h"
 #include "Utils.h"
 
