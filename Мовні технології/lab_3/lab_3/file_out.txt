@@ -1,0 +1,9 @@
+dba: DOESN'T MATCH
+a: MATCHES
+bc: MATCHES
+dbaea: MATCHES
+da: MATCHES
+ba: DOESN'T MATCH
+baebaebc: MATCHES
+dbaebaebaebaebc: MATCHES
+dbaebaebaebaeb: DOESN'T MATCH
