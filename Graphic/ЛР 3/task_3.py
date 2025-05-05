@@ -189,7 +189,7 @@ while running:
     info = font.render(f'perspective factor: {perspective_factor}', True, (255, 255, 0))
     screen.blit(info, (10, 10))
     
-    #axis_draw()
+    axis_draw()
 
     pygame.display.flip()
 

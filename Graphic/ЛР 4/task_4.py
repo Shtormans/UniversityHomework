@@ -78,12 +78,51 @@ edges = [
     (9, 19)
 ]
 
+object_center = [0, 0, 0]
+angles = [0, 0, 0]
+z_offset = 5
+
+animation_start_point = [0, 0, 0]
+animation_start_rotation = [0, 0, 0]
+animation_end_point = [0.3, 0.1, 0.1]
+animation_end_rotation = [0, 0, 0]
+animation_duration = 1.2
+animation_elapsed_time = animation_duration
+
+def lerp(start, end, t):
+    result = [0, 0, 0]
+    
+    result[0] = start[0] * (1 - t) + end[0] * t
+    result[1] = start[1] * (1 - t) + end[1] * t
+    result[2] = start[2] * (1 - t) + end[2] * t
+
+    return result
+
 def project_point(point):
-    z_offset = 5
-    factor = perspective_factor / (point[2] + z_offset)
-    x = point[0] * factor + SCREEN_WIDTH // 2
-    y = -point[1] * factor + SCREEN_HEIGHT // 2
+    factor = perspective_factor / (point[2] + z_offset + object_center[2])
+    x = (point[0] + object_center[0]) * factor + SCREEN_WIDTH // 2
+    y = -(point[1] + object_center[1]) * factor + SCREEN_HEIGHT // 2
     return (int(x), int(y))
+
+def play_move_animation():
+    global object_center, animation_elapsed_time, angles
+    
+    animation_elapsed_time += 1/ 60
+    
+    if animation_elapsed_time < animation_duration:
+        if animation_elapsed_time + 1 / 60 > animation_duration:
+            object_center = animation_end_point.copy()
+            angles = animation_end_rotation.copy()
+        else:
+            object_center = lerp(animation_start_point, animation_end_point, animation_elapsed_time / animation_duration)
+            angles = lerp(animation_start_rotation, animation_end_rotation, animation_elapsed_time / animation_duration)
+            
+
+def inverse_point(screen_point):
+    factor = perspective_factor / (z_offset + object_center[2])
+    
+    object_center[0] = (screen_point[0] - SCREEN_WIDTH // 2) / factor
+    object_center[1] = -(screen_point[1] - SCREEN_HEIGHT // 2) / factor
 
 def rotate(point, angle, axis):
     sin_a = math.sin(angle)
@@ -139,7 +178,7 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 clock = pygame.time.Clock()
 
 running = True
-angles = [0, 0, 0]
+dragging = False
 
 perspective_factor = 300
 
@@ -164,14 +203,31 @@ while running:
         angles[2] -= 0.02
 
     if keys[pygame.K_UP]:
-        perspective_factor += 5
+        object_center[2] += 0.02
     if keys[pygame.K_DOWN]:
-        perspective_factor -= 5
-        perspective_factor = max(0, perspective_factor)
+        object_center[2] -= 0.02
+        object_center[2] = max(0, object_center[2])
+        
+    if keys[pygame.K_j]:
+        animation_elapsed_time = 0
+        animation_start_point = object_center
+        animation_start_rotation = angles
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            if event.button == 1:            
+                dragging = True
+                inverse_point(event.pos)
+        elif event.type == pygame.MOUSEBUTTONUP:
+            if event.button == 1:            
+                dragging = False
+        elif event.type == pygame.MOUSEMOTION:
+            if dragging:
+                inverse_point(event.pos)
+
+    play_move_animation()
 
     transformed = []
     for v in vertices:
@@ -186,10 +242,10 @@ while running:
         pygame.draw.line(screen, (255, 255, 255), transformed[edge[0]], transformed[edge[1]], 2)
 
     font = pygame.font.SysFont(None, 24)
-    info = font.render(f'perspective factor: {perspective_factor}', True, (255, 255, 0))
+    info = font.render(f'perspective factor: {perspective_factor}, location: ({object_center[0]:.2f}, {object_center[1]:.2f}, {object_center[2]:.2f})', True, (255, 255, 0))
     screen.blit(info, (10, 10))
     
-    #axis_draw()
+    axis_draw()
 
     pygame.display.flip()
 
