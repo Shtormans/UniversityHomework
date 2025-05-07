@@ -38,14 +38,14 @@ internal class DoctorCollection
             .Select(TestCollections.CreateSimpleInstance)
             .ToList();
         
-        DoctorAdded?.Invoke(this, new DoctorListHandlerEventArgs(CollectionName, "Added doctors", _doctors.Count));
+        DoctorAdded?.Invoke(this, new DoctorListHandlerEventArgs(CollectionName, "Added doctors", _doctors.Count - 1));
     }
 
     public void AddDoctors(params Doctor[] doctors)
     {
         _doctors.AddRange(doctors);
         
-        DoctorAdded?.Invoke(this, new DoctorListHandlerEventArgs(CollectionName, "Added doctors", _doctors.Count));
+        DoctorAdded?.Invoke(this, new DoctorListHandlerEventArgs(CollectionName, "Added doctors", _doctors.Count - 1));
     }
 
     public void SortBySurname()
