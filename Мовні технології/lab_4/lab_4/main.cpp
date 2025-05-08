@@ -4,172 +4,243 @@
 #include <cctype>
 #include <unordered_set>
 
-bool checkKeyword(const std::string& word) {
-    static const std::unordered_set<std::string> keywords = {
-        "if", "else", "for", "while", "function", "class", "include", "require", "return", "echo",
-        "false", "true", "break", "continue", "switch", "case", "default", "try", "catch", "throw",
-        "namespace", "use", "public", "private", "protected", "static", "final", "abstract", "interface",
-        "extends", "implements", "new", "global", "const", "var", "define", "die", "exit", "include_once",
-        "require_once", "yield", "yield from", "instanceof", "php", "as"
-    };
-    return keywords.count(word) > 0;
+enum class State
+{
+	Start,
+	Identifier,
+	Number,
+	String,
+	TemplateLiteral,
+	Operator,
+	LineComment,
+	BlockComment
+};
+
+static const std::unordered_set<std::string> keywords =
+{
+		"if", "else", "for", "while", "do", "break", "continue",
+		"switch", "case", "default", "function", "return", "var", "let", "const",
+		"new", "this", "typeof", "instanceof", "void", "delete", "try", "catch",
+		"finally", "throw", "class", "extends", "super", "import", "from", "export",
+		"in", "of", "with", "yield", "await", "async", "true", "false", "null", "undefined"
+};
+
+bool isKeyword(const std::string& word)
+{
+	return keywords.count(word) > 0;
 }
 
-void analyze(const std::string& code) {
-    enum class State { START, IN_IDENTIFIER, IN_NUMBER, IN_STRING, IN_CHAR, IN_OPERATOR, IN_COMMENT, IN_MULTILINE_COMMENT };
+std::string readFile(const std::string& filename)
+{
+	std::ifstream file(filename);
 
-    State state = State::START;
-    std::string lexeme;
-    std::string comment;
-    char stringDelimiter = '\0';
-    char charDelimiter = '\0';
+	if (!file)
+	{
+		throw std::runtime_error("Failed to open file: " + filename);
+	}
 
-    for (size_t i = 0; i < code.size(); ++i) {
-        char c = code[i];
+	std::string content, line;
+	while (std::getline(file, line))
+	{
+		content += line + '\n';
+	}
 
-        switch (state) {
-        case State::START:
-            if (std::isalpha(c) || c == '_') {
-                state = State::IN_IDENTIFIER;
-                lexeme += c;
-            }
-            else if (std::isdigit(c)) {
-                state = State::IN_NUMBER;
-                lexeme += c;
-            }
-            else if (c == '\"' || c == '\'') {
-                state = (c == '\"') ? State::IN_STRING : State::IN_CHAR;
-                stringDelimiter = c;
-                lexeme += c;
-            }
-            else if (c == '/') {
-                if (i + 1 < code.size() && code[i + 1] == '/') {
-                    state = State::IN_COMMENT;
-                    ++i;
-                }
-                else if (i + 1 < code.size() && code[i + 1] == '*') {
-                    state = State::IN_MULTILINE_COMMENT;
-                    ++i;
-                }
-                else {
-                    state = State::IN_OPERATOR;
-                    lexeme += c;
-                }
-            }
-            else if (std::isspace(c)) {
-
-            }
-            else if (c == '+' || c == '-' || c == '*' || c == '/' || c == '%' || c == '=' || c == '!' || c == '&' || c == '|') {
-                state = State::IN_OPERATOR;
-                lexeme += c;
-            }
-            else if (c == ';' || c == ',' || c == '.' || c == ')' || c == '(' || c == '{' || c == '}') {
-                std::cout << "Delimiter: " << c << std::endl;
-            }
-            break;
-
-        case State::IN_IDENTIFIER:
-            if (std::isalnum(c) || c == '_') {
-                lexeme += c;
-            }
-            else {
-                if (checkKeyword(lexeme)) {
-                    std::cout << "Keyword: " << lexeme << std::endl;
-                }
-                else {
-                    std::cout << "Identifier: " << lexeme << std::endl;
-                }
-                lexeme.clear();
-                state = State::START;
-                --i;
-            }
-            break;
-
-        case State::IN_NUMBER:
-            if (std::isdigit(c) || c == '.') {
-                lexeme += c;
-            }
-            else {
-                std::cout << "Number: " << lexeme << std::endl;
-                lexeme.clear();
-                state = State::START;
-                --i;
-            }
-            break;
-
-        case State::IN_STRING:
-            lexeme += c;
-            if (c == stringDelimiter && lexeme.back() != '\\') {
-                std::cout << "String constant: " << lexeme << std::endl;
-                lexeme.clear();
-                state = State::START;
-                stringDelimiter = '\0';
-            }
-            break;
-
-        case State::IN_CHAR:
-            lexeme += c;
-            if (c == charDelimiter && lexeme.back() != '\\') {
-                std::cout << "Character constant: " << lexeme << std::endl;
-                lexeme.clear();
-                state = State::START;
-                charDelimiter = '\0';
-            }
-            break;
-
-        case State::IN_OPERATOR:
-            if (c == '+' || c == '-' || c == '*' || c == '/' || c == '%' || c == '=' || c == '!' || c == '&' || c == '|') {
-                lexeme += c;
-            }
-            std::cout << "Operator: " << lexeme << std::endl;
-            lexeme.clear();
-            state = State::START;
-            break;
-
-        case State::IN_COMMENT:
-            if (c == '\n') {
-                std::cout << "Comment: " << comment << std::endl;
-                comment.clear();
-                state = State::START;
-            }
-            else {
-                comment += c;
-            }
-            break;
-
-        case State::IN_MULTILINE_COMMENT:
-            comment += c;
-            if (c == '*' && i + 1 < code.size() && code[i + 1] == '/') {
-                comment += '/';
-                ++i;
-                std::cout << "Multiline Comment: " << comment << std::endl;
-                comment.clear();
-                state = State::START;
-            }
-            break;
-        }
-    }
+	return content;
 }
 
-int main() {
-    std::ifstream file("example.txt");
-    if (!file.is_open()) {
-        std::cerr << "Failed to open the file" << std::endl;
-        return 1;
-    }
+void outputToken(const std::string& lexeme, State state)
+{
+	if (lexeme.empty())
+	{
+		return;
+	}
 
-    std::string code;
-    std::string line;
-    while (std::getline(file, line)) {
-        code += line + '\n';
-    }
-
-    file.close();
-
-    analyze(code);
-
-    return 0;
+	switch (state)
+	{
+	case State::Identifier:
+		std::cout << (isKeyword(lexeme) ? "Keyword: " : "Identifier: ") << lexeme << '\n';
+		break;
+	case State::Number:
+		std::cout << "Number: " << lexeme << '\n';
+		break;
+	case State::String:
+		std::cout << "String constant: " << lexeme << '\n';
+		break;
+	case State::TemplateLiteral:
+		std::cout << "Template literal: " << lexeme << '\n';
+		break;
+	case State::Operator:
+		std::cout << "Operator: " << lexeme << '\n';
+		break;
+	default:
+		break;
+	}
 }
 
+void analyze(const std::string& code)
+{
+	State state = State::Start;
+	std::string lexeme;
+	std::string comment;
+	char quote = '\0';
 
+	for (size_t i = 0; i < code.size(); ++i)
+	{
+		char c = code[i];
+		char next = (i + 1 < code.size()) ? code[i + 1] : '\0';
 
+		switch (state)
+		{
+		case State::Start:
+			if (std::isalpha(c) || c == '_')
+			{
+				state = State::Identifier;
+				lexeme += c;
+			}
+			else if (std::isdigit(c))
+			{
+				state = State::Number;
+				lexeme += c;
+			}
+			else if (c == '\'' || c == '"')
+			{
+				state = State::String;
+				quote = c;
+				lexeme += c;
+			}
+			else if (c == '`') {
+				state = State::TemplateLiteral;
+				quote = c;
+				lexeme += c;
+			}
+			else if (c == '/' && next == '/')
+			{
+				state = State::LineComment;
+				++i;
+				comment.clear();
+			}
+			else if (c == '/' && next == '*')
+			{
+				state = State::BlockComment;
+				++i;
+				comment.clear();
+			}
+			else if (std::ispunct(c) && c != ';' && c != '(' && c != ')' && c != '[' && c != ']' && c != '{' && c != '}')
+			{
+				state = State::Operator;
+				lexeme += c;
+			}
+			else if (!std::isspace(c))
+			{
+				std::cout << "Delimiter: " << c << '\n';
+			}
+			break;
+
+		case State::Identifier:
+			if (std::isalnum(c) || c == '_')
+			{
+				lexeme += c;
+			}
+			else
+			{
+				outputToken(lexeme, state);
+				lexeme.clear();
+				state = State::Start;
+				--i;
+			}
+			break;
+
+		case State::Number:
+			if (std::isdigit(c) || c == '.')
+			{
+				lexeme += c;
+			}
+			else
+			{
+				outputToken(lexeme, state);
+				lexeme.clear();
+				state = State::Start;
+				--i;
+			}
+			break;
+
+		case State::String:
+			lexeme += c;
+			if (c == quote && lexeme[lexeme.size() - 2] != '\\')
+			{
+				outputToken(lexeme, state);
+				lexeme.clear();
+				state = State::Start;
+			}
+			break;
+
+		case State::TemplateLiteral:
+			lexeme += c;
+			if (c == '`' && lexeme[lexeme.size() - 2] != '\\')
+			{
+				outputToken(lexeme, state);
+				lexeme.clear();
+				state = State::Start;
+			}
+			break;
+
+		case State::Operator:
+			if (c == '=' || c == '&' || c == '|' || c == '+' || c == '-' || c == '>')
+			{
+				lexeme += c;
+			}
+			else
+			{
+				outputToken(lexeme, state);
+				lexeme.clear();
+				state = State::Start;
+				--i;
+			}
+			break;
+
+		case State::LineComment:
+			if (c == '\n')
+			{
+				std::cout << "Comment: " << comment << '\n';
+				state = State::Start;
+			}
+			else
+			{
+				comment += c;
+			}
+			break;
+
+		case State::BlockComment:
+			if (c == '*' && next == '/')
+			{
+				++i;
+				std::cout << "Multiline Comment: " << comment << '\n';
+				state = State::Start;
+			}
+			else
+			{
+				comment += c;
+			}
+
+			break;
+		}
+	}
+
+	outputToken(lexeme, state);
+}
+
+int main()
+{
+	try
+	{
+		std::string code = readFile("example.js");
+		analyze(code);
+	}
+	catch (const std::exception& ex)
+	{
+		std::cerr << ex.what() << '\n';
+		return 1;
+	}
+
+	return 0;
+}
