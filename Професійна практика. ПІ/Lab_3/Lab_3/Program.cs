@@ -1,9 +1,19 @@
-﻿using Lab_3;
+﻿using Bogus;
+using Lab_3;
+using System.Runtime.CompilerServices;
 
 internal class Program
 {
+    private static void Test(int tes, [CallerArgumentExpression(nameof(tes))] string? paramName = null)
+    {
+        Console.WriteLine(paramName);
+    }
+
     private static void Main(string[] args)
     {
+        int a = 2;
+        Test(2);
+
         Diploma diploma = new Diploma("Test organization", "Test qualification", DateTime.Now);
         Doctor doctor = new("Specialty 1", Category.Second, 3, [diploma]);
 
@@ -16,6 +26,8 @@ internal class Program
 
         Console.WriteLine();
         Console.Write("Input file name: ");
+
+
 
         string fileName = Console.ReadLine()!;
 
@@ -45,5 +57,7 @@ internal class Program
         Console.WriteLine();
         Console.WriteLine("Updated doctor from file");
         Console.WriteLine(doctorFromFile);
+
+        new Faker<Doctor>().RuleFor(x => x.Specialty, faker => faker.Person.FirstName).Generate(100);
     }
 }
