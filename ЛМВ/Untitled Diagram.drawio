@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
+  <diagram name="Page-1" id="RsTqxLJkM59AuDEcubVw">
+    <mxGraphModel dx="1020" dy="925" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aycMisDbpP-9V_9Z00iD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aycMisDbpP-9V_9Z00iD-1" target="aycMisDbpP-9V_9Z00iD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aycMisDbpP-9V_9Z00iD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aycMisDbpP-9V_9Z00iD-1" target="aycMisDbpP-9V_9Z00iD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aycMisDbpP-9V_9Z00iD-1" value="Структура довідкової системи для Соціологічного опитування" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="335" y="40" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aycMisDbpP-9V_9Z00iD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aycMisDbpP-9V_9Z00iD-3" target="aycMisDbpP-9V_9Z00iD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aycMisDbpP-9V_9Z00iD-3" value="Клієнтський модуль" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aycMisDbpP-9V_9Z00iD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aycMisDbpP-9V_9Z00iD-5" target="aycMisDbpP-9V_9Z00iD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aycMisDbpP-9V_9Z00iD-5" value="Адміністративний модуль" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="470" y="170" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aycMisDbpP-9V_9Z00iD-7" value="&lt;ul&gt;&lt;li&gt;Опис вікна &quot;Головне меню&quot;&lt;/li&gt;&lt;li&gt;Вибір опитування&lt;/li&gt;&lt;li&gt;Проходження поитування&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="161.25" y="290" width="237.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aycMisDbpP-9V_9Z00iD-9" value="&lt;ul&gt;&lt;li&gt;Опис вікна &quot;Адміністратор&quot;&lt;/li&gt;&lt;li&gt;Створення нового опитування&lt;/li&gt;&lt;li&gt;Вибір опитування для редагування&lt;/li&gt;&lt;li&gt;Перегляд статистики опитування&lt;/li&gt;&lt;li&gt;Експорт/імпорт даних у JSON&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="290" width="235" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
